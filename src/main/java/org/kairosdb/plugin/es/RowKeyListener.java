@@ -65,8 +65,8 @@ public class RowKeyListener
 	}
 
 	/**
-	 Each document in solr needs an id.  Because our documents are all unique
-	 we will use a hash of each field to create and id.
+	 Each document in elastic search needs an id.  Because our documents are all unique
+	 we will use a hash of each field to create an id.
 	 @param rowKey
 	 @return
 	 */
